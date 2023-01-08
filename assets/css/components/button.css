@@ -1,0 +1,32 @@
+.btn-demo {
+    background-color: aqua;
+    border-radius: 999999px;
+    border: none;
+    padding: 10px 20px;
+    color: blueviolet;
+    cursor: pointer;
+    height: fit-content; /*permet à la taille de correspondre à ce qu'il y'a à l'intérieur*/
+  }
+  
+  .btn-demo:hover {
+    background-color: rgb(11, 185, 185);
+    animation: changing-color 5s infinite
+  }
+  
+  @keyframes changing-color {
+    25% {
+      background-color: red;
+    }
+  
+    50% {
+      background-color: rgb(207, 201, 201);
+    }
+  
+    75% {
+      background-color: rgb(248, 107, 55);
+    }
+  
+    100% {
+      background-color: bisque;
+    }
+  }

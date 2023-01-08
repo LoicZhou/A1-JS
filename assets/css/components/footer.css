@@ -1,0 +1,9 @@
+.footer {
+    background-color: gainsboro;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    color: black;
+    margin-top: 100px;
+}
